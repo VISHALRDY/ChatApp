@@ -70,9 +70,9 @@ builder.Services.AddCors(options =>
         policy =>
         {
             policy.WithOrigins(
-                "http://localhost:3000",
-                "https://YOUR-STATIC-APP.azurestaticapps.net"
-            )
+    "http://localhost:3000",
+    "https://green-pond-06ee2401e.6.azurestaticapps.net"
+)
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
