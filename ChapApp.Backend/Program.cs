@@ -71,7 +71,7 @@ builder.Services.AddCors(options =>
         {
             policy.WithOrigins(
     "http://localhost:3000",
-    "https://chappfrontend.netlify.app"
+    "https://blue-river-0c4f5d71e.1.azurestaticapps.net"
 )
             .AllowAnyHeader()
             .AllowAnyMethod()
